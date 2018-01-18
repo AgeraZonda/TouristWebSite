@@ -24,6 +24,84 @@ echo "Tuan Anh Tourist"
 <script language="JavaScript" type="text/JavaScript" src="Scripts/avim.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<style type="text/css">
+:root {
+  /* if u want to change the color of
+   * the ripple change this value
+  */
+  --color-ripple: rgba(255,255,255,0.8);
+}
+
+body {
+  background: #36353c;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 200px;
+  margin: auto;
+}
+*[data-animation="ripple"] {
+  position: relative; /*Position relative is required*/
+  height: 100%;
+  width: 100%;
+  display: block;
+  outline: none;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #e570e7 0%,#79f1fc 100%);
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 14px;
+  font-family: roboto, helvetica;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-decoration: none;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  /*border-radius: 50px;*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+*[data-animation="ripple"]:focus {
+  outline: none;
+}
+
+*[data-animation="ripple"]::selection {
+  background: transparent;
+  pointer-events: none;
+}
+button {
+
+    width:80px; 
+     background-image:url(""); 
+       border:0; 
+     font:Tahoma; 
+     color:#FFFFFF;
+     height:26px;
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background: #CF4647;
+}
+</style>
 <style>
 .mySlides {display:none;}
 
@@ -33,6 +111,7 @@ echo "Tuan Anh Tourist"
 <script type="text/javascript" src="Scripts/tooltip/tip_balloon.js"></script> 
 <script type="text/javascript" src="Scripts/tooltip/tip_centerwindow.js"></script> 
 <script type="text/javascript" src="Scripts/tooltip/tip_followscroll.js"></script>
+<script src="myDirectory/touchMyRipple.js"></script>
 
 <div id="container" style = "max-width: 960px;-webkit-border-radius: 5px;
 border-radius: 5px; 

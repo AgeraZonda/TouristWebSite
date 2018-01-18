@@ -1,4 +1,31 @@
-<table width="195px" border="0" cellspacing="0" cellpadding="0">
+<style type="text/css">
+
+.button {
+
+    width:50px; 
+     background-image:url(""); 
+       border:0; 
+     font:Tahoma; 
+     color:#FFFFFF;
+     height:20px;
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+}
+
+.button:hover {
+  background: #CF4647;
+}
+</style><table width="195px" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td background="images/bgn_timkiem2.png" height="35px"><div align="left" style="color:#fff; font-family:Tahoma; font-size: 14px; padding-left:30px;">TÌM KIẾM </div></td>
   </tr>
@@ -15,7 +42,8 @@
   </tr>
   <tr>    
     <td height="30" align="center" style="border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC"><span style="border-bottom:5px">
-      <input type="submit" value="Tìm" class="button" onmouseover="style.background='url(images/button-2-o.gif)'" onmouseout="style.background='url(images/button-o.gif)'" />
+      <input  type="submit" value="Tìm" class="button" />
+      
     </span></td>    
   </tr> 
   </form>  
