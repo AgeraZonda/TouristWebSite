@@ -45,7 +45,7 @@
 <div style="width:560px">
 <table width="560" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="33" width="448" style="background-color:#c91401; padding-left:30px; color:#FFF; font-size:16px; font-weight:bold">THÔNG TIN SẢN PHẨM</td> 
+    <td height="33" width="448" style="background-color:#c91401; padding-left:30px; color:#FFF; font-size:16px; font-weight:bold">THÔNG TIN VỀ DÒNG XE</td> 
     <td width="112" height="33"><img src="images/bgtitle.jpg" width="112" height="33"></td>
   </tr>
 </table>
@@ -63,8 +63,8 @@
     </tr>
   <tr>
     <td width="220" rowspan="7" align="center" valign="top"><div onclick="var win=window.open('zoom.php?id=<?php echo $id; ?>', 'open_window', 'width=405, height=530, left=0, top=0')">
-      <p><img src="sanpham/small/<?php echo $hinh; ?>" width="170" height="170"><br />
-        Lớn hơn
+      <p ><img src="sanpham/small/<?php echo $hinh; ?>" width="170" height="170"><br />
+        <a href="" style="text-decoration-line: underline; color :#00f;margin: 10px ">Lớn hơn</a>
       </p>
       <p>&nbsp;</p>
     </div>
@@ -83,42 +83,19 @@
 		echo "<a href=\"index.php?b=gh&id=$id&g=$gia\"><img src=\"images/chovaogiohang.jpg\" width=\"151\" height=21 border=0></a>";
 	?>
     </form></td>
-    <td width="120" height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Mã sản phẩm:</td>
-    <td width="220" style="border-bottom:1px dotted #666; padding-left:5px"><span style="font-size:18px; color:#00F; font-weight:bold"><?php echo $tensp; ?></span></td>
+    <td width="120" height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666"><br><br>Tên Dòng Xe:<br><br> </td>
+    <td width="220" style="border-bottom:1px dotted #666; padding-left:20px"><span style="font-size:18px; color:#00F; font-weight:bold"><?php echo $tensp; ?></span></td>
   </tr>
   <tr>
-    <td height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Giá:</td>
-    <td style="border-bottom:1px dotted #666; padding-left:5px"><font color="#FF0000"><?php  echo "$gia2 VND"; ?></font></td>
-  </tr>
-  <tr>
-    <td height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Thuế VAT:</td>
-    <td style="border-bottom:1px dotted #666; padding-left:5px"><font color="#FF0000">Giá trên chưa bao gồm thuế</font></td>
-  </tr>
-  <tr>
-    <td height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Bảo hành:</td>
-    <td style="border-bottom:1px dotted #666; padding-left:5px">12 tháng.</td>
-  </tr>
-  <tr>
-    <td height="40" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Vận chuyển:</td>
-    <td style="border-bottom:1px dotted #666; padding-left:5px">Giao hàng toàn quốc</td>
-  </tr>
-  <tr>
-    <td height="40" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Thời gian <br />
-      giao hàng:</td>
-    <td style="border-bottom:1px dotted #666; padding-left:5px">
-     <?php 
-		if($tinhtrang==0) echo "<strong>7 ngày</strong> sau khi đặt hàng";
-		else echo "<strong>1 ngày</strong> sau khi đặt hàng";
-	?>
-    </td>
-  </tr>  
-  <tr>
-    <td height="70" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666">Hình thức<br />
-thanh toán:</td>
-    <td style="padding-left:5px"><p>Nhận tiền sau khi giao hàng</p></td>
+    <td height="25" style="padding-left:20px; border-bottom:1px dotted #666; border-right:1px dotted #666"><br>Giá: <br><br></td>
+    <td style="border-bottom:1px dotted #666; padding-left:20px"><font color="#FF0000"><?php  echo "$gia2 VND"; ?></font></td>
   </tr>
 
-    <td align="justify" colspan="3" style="border-bottom:1px solid #333; padding-bottom:5px; color:#F00">
+  
+  
+  
+
+    <td align="justify" colspan="3" style="border-bottom:1px solid #333; color:#F00">
     </td>
   </tr>  
 </table>

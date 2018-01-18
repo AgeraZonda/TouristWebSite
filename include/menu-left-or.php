@@ -33,7 +33,12 @@ objImg.src="images/arrow-square.gif";
 			$tennhom=$r["tennhom"];
 			if($id_nhom==1)
 			{
-				echo "<tr><td height=30 background='images/bg_menu.png' style=\"padding-left:30px\">				
+				echo "<tr><td height=30 background='images/bg_menu.png' style=\" /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3030+0,ea7b3f+100 */
+background: rgb(255,48,48); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,48,48,1) 0%, rgba(234,123,63,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,48,48,1) 0%,rgba(234,123,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,48,48,1) 0%,rgba(234,123,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#ea7b3f',GradientType=1 ); /* IE6-9 */ ;padding-left:10px\">				
 				<a href=?b=nsp&idn=$id_nhom style=\"color:#fff\" onMouseOver=\"style.color='#ffcc00'\" onMouseOut=\"style.color='#FFF'\">$tennhom</a></td></tr>";
 			
 				$sql2="select * from loaisanpham where id_nhom=1";

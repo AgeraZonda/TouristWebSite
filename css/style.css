@@ -3,7 +3,7 @@
 body {
 	background-repeat: repeat-y;
 	margin: 0px;
-	_padding: 0px;
+	padding: 0px;
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 13px;
@@ -14,8 +14,8 @@ body {
 
 }
 *html {
-	_padding: 0;
-	_margin:0;
+	padding: 0;
+	margin:0;
 }
 a:link {	
 	text-decoration: none;
@@ -35,7 +35,7 @@ a:active {
 }
 #container {
 	background-color: #FFFFFF;
-	width: 1200px;
+	width: 960px;
 	margin: auto;
 	text-align:left;
 }
@@ -72,13 +72,11 @@ a:active {
 /*	display:inline; */
 }
 #content{
-	margin-left:200px;
-	margin-right:200px;
-	_display:inline;
+
 }
 #footer{
 	text-align: center;
-	Margin: 0 auto;
+	margin: 0 auto;
 	width: 960px;
 	height: 50px;
 	background-repeat: repeat;
@@ -131,7 +129,7 @@ a:active {
 	float: left;
 	overflow:hidden;
 	width:175px;
-    HEIGHT: 220px;	
+    height: : 220px;	
 	text-align:center;
 	padding:4px;
 }
@@ -140,7 +138,7 @@ a:active {
 	float: left;
 	overflow:hidden;
 	width:175px;
-    HEIGHT: 220px;	
+    height: : 220px;	
 	text-align:center;
 	padding:3px;
 }
